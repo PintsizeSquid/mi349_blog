@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Game Development</h1>
+        <p>My recent work into side projects</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name:
+                <input type="text">
+            </label>
+            <br><br>
+            <label>Email:
+                <input type="text">
+            </label>
+            <br><br>
+            <label>Reason for contact:</label>
+            <select name="reasons" id="reasons">
+                <optgroup label="Contact Reasons">
+                    <option value="question">Question</option>
+                    <option value="idea">Idea</option>
+                    <option value="collaboration">Collaboration</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <textarea id="comment" name="comment" rows="6" cols="50"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
