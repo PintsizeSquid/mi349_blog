@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <section id="sidebar">
         <h1>Game Development</h1>
-        <p>My recent work into side projects</p>
+        <p>Recent side projects</p>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -16,31 +17,36 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <h2>Contact Me</h2>
+        <h1>Newsletter</h1>
         <form>
-            <label>Name:
+            <label>Sign up for my newsletter:
                 <input type="text">
             </label>
-            <br><br>
-            <label>Email:
-                <input type="text">
-            </label>
-            <br><br>
-            <label>Reason for contact:</label>
-            <select name="reasons" id="reasons">
-                <optgroup label="Contact Reasons">
-                    <option value="hi">Hi</option>
-                    <option value="contractor">Looking for a Contractor</option>
-                    <option value="interview">Interested in a interview</option>
-                </optgroup>
-            </select>
-            <br><br>
-            <textarea id="comment" name="comment" rows="6" cols="50"></textarea>
-            <br><br>
-            <input type="submit" value="Submit">
+            <button>Subscribe</button>
         </form>
-    </main>
+    </section>
+    <section id="contact">
+        <main>
+            <h2>Contact Me</h2>
+            <form>
+                <label>Name:
+                    <input type="text">
+                </label>
+                <label>Email:
+                    <input type="text">
+                </label>
+                <label>Reason for contact:</label>
+                <select name="reasons" id="reasons">
+                    <optgroup label="Contact Reasons">
+                        <option value="hi">Hi</option>
+                        <option value="contractor">Looking for a Contractor</option>
+                        <option value="interview">Interested in a interview</option>
+                    </optgroup>
+                </select>
+                <textarea id="comment" name="comment" rows="6" cols="50"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    </section>
 </body>
 </html>
